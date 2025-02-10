@@ -1,0 +1,99 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+/* En-tête */
+header {
+    background-color: #ff5733;
+    color: white;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section Catalogue */
+#catalogue {
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.catalogue-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.produit {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.produit img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Espace Client */
+#espace-client {
+    padding: 40px;
+    background-color: #f1f1f1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #ff5733;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #c44129;
+}
+
+/* Contact */
+#contact {
+    padding: 30px;
+    background-color: white;
+}
+
+/* Pied de page */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px 0;
+}
